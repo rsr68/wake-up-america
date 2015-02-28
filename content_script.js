@@ -1,5 +1,15 @@
 // Inspired by and modified from https://github.com/snipe/downworthy
-walk(document.body);
+
+go(); 
+
+function go() {
+	chrome.extension.sendRequest({id: 'isPaused?'}, function(response) {
+		var isPaused = response.value;  
+		if(!isPaused) {
+			walk(document.body);
+		}
+	});
+}
 
 function walk(node) 
 {
