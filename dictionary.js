@@ -10,6 +10,7 @@ var dictionary={
 		"Black" : "Thug",
 		"Obamas" : "Obozos",
 		"gay" : "F@@got",
+		"homosexual" : "deviant g@y pervert"
 		"African" : "n**ger",
 		"chiropractor" : "chiroquacker",
 		"chiropractor" : "chiroquackers",
@@ -30,13 +31,14 @@ var dictionary={
 		"people" : "sheeple",
 		"?" : "? This country is going to Hell!!!!!",
 		"pro-choice" : "anti-life", 
-		"Republican" : "Repugnican",
-		"ISIS" : "Ovomit's Muslim Army",
-		"Islamic State" : "Obi-Wan Nairobi's Muslim Army",
+		"Republican" : "Repugnicant",
+		"Islamic State" : "Ovomit's Muslim Army",
+		"ISIS" : "Obi-Wan Nairobi's Muslim Army",
 		"war" : "jihad",
 		"liberal" : "libtard", 
 		"conservative" : "conservitard",
 		"mosque" : "terrorist training ground",
-		"Iraqi" : "Raq-Coon",
+		"Iraqi" : "Towelhead",
+		"Iraq" : "The Sandbox"
 	},
 };
