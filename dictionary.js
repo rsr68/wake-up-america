@@ -5,7 +5,7 @@ var dictionary={
 		"Obamacare" : "Owebamacare"
 		"Barack" : "Hussein",
 		"Obama" : "Obummer",
-		"Muslim" : "mooSLIMEs",
+		"Muslim" : "mooSLIME",
 		"Muslims" : "Muzzies",
 		"Black" : "Thug",
 		"Obamas" : "Obozos",
@@ -14,7 +14,6 @@ var dictionary={
 		"African" : "n**ger",
 		"chiropractor" : "chiroquacker",
 		"chiropractor" : "chiroquackers",
-		"negotiate" : "bomb them",
 		"Congress" : "criminals in Congress",
 		"immigration" : "Illegals taking our JOBS",
 		"Democrat" : "Demoncrap",
