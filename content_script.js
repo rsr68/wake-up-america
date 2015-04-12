@@ -94,6 +94,8 @@ function handleText(textNode)
 	v = v.replace(/\mosques\b/ig, "terrorist training grounds");
 	v = v.replace(/\Iraqi\b/ig, "Towelhead");
 	v = v.replace(/\Iraq\b/ig, "The Sandbox of Iraq");
+  v = v.replace(/\tax(es|ation)?/, "legalized theft");
+  v = v.replace(/\Don't Ask,? Don't Tell/i, "Keep it in the Closet");
 	
 	// Punctuation
 	v = v.replace(/\."/ig, ". WAKE UP AMERICA\" ");
