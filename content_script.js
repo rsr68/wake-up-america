@@ -58,7 +58,6 @@ function handleText(textNode)
 	v = v.replace(/\bMuslim\b/ig, "mooSLIME");
 	v = v.replace(/\bIslam\b/ig, "ISLIME");
 	v = v.replace(/\bMuslims\b/ig, "Muzzies");
-	v = v.replace(/\bObamacare\b/ig, "Owebamacare");
 	v = v.replace(/\bBlack\b/ig, "Thug");
 	v = v.replace(/\bObamas\b/ig, "Obozos");
 	v = v.replace(/\bISIS\b/ig, "Obi-Wan Nairobi's Muslim Army");
@@ -79,7 +78,7 @@ function handleText(textNode)
 	v = v.replace(/\President\b/ig, "the Kenyan-in-Chief");
 	v = v.replace(/\Ebola\b/ig, "E Boli");
 	v = v.replace(/\Communist\b/ig, "Obammunist");
-	v = v.replace(/\Communist\b/ig, "Obammunism");
+	v = v.replace(/\Communism\b/ig, "Obammunism");
 	v = v.replace(/\deport\b/ig, "tell them they are NOT welcome here");
 	v = v.replace(/\people\b/ig, "sheeple");
 	v = v.replace(/\pro-choice\b/ig, "anti-life");
@@ -89,7 +88,7 @@ function handleText(textNode)
 	v = v.replace(/\bwar\b/ig, "jihad");
 	v = v.replace(/\liberal\b/ig, "libtard");
 	v = v.replace(/\conservative\b/ig, "conservitard");
-	v = v.replace(/\conservative\b/ig, "conservitard");
+	v = v.replace(/\conservatives\b/ig, "conservitards");
 	v = v.replace(/\mosque\b/ig, "terrorist training ground");
 	v = v.replace(/\mosques\b/ig, "terrorist training grounds");
 	v = v.replace(/\Iraqi\b/ig, "Towelhead");
