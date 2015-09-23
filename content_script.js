@@ -94,18 +94,18 @@ function handleText(textNode)
 	v = v.replace(/\mosque\b/ig, "terrorist training ground");
 	v = v.replace(/\mosques\b/ig, "terrorist training grounds");
 	v = v.replace(/\Iraqi\b/ig, "Towelhead");
-        v = v.replace(/\tax(es|ation)?/, "legalized theft");
-        v = v.replace(/\Don't Ask,? Don't Tell/i, "Keep it in the Closet");
-        v = v.replace(/\Immigrants\b/ig, "freeloaders & invaders");
+    v = v.replace(/\tax(es|ation)?/, "legalized theft");
+    v = v.replace(/\Don't Ask,? Don't Tell/i, "Keep it in the Closet");
+    v = v.replace(/\Immigrants\b/ig, "freeloaders & invaders");
 	v = v.replace(/\Osama bin Laden\b/ig, "Obama bin Laden");
 	v = v.replace(/\Planned Parenthood\b/ig, "Baby Murderers");
 	v = v.replace(/\California\b/ig, "liberal left wing hippy dippy state of California");
 	v = v.replace(/\Bernie Sanders\b/ig, "Socialist Bernie Sanders");
 	v = v.replace(/\black\b/ig, "black - but I don't see why we need to bring race into this -");
+	v = v.replace(/\Americans\b/ig, "hardworking Americans");
 	
 	// Punctuation
 	v = v.replace(/\."/ig, ". WAKE UP AMERICA\" ");
-	v = v.replace(/\..."/ig, "... Trump 2016!\" ");
 	v = v.replace(/\?/ig, "? This country is going to Hell!!!!!");
 	textNode.nodeValue = v;
 }
