@@ -48,6 +48,8 @@ function handleText(textNode)
 	// Note: I have made no effort to make replacements based on proper capitalization/grammar
 	// If you take any time to read a right-wing comments section, you'll see why.
 	
+	// Some of these are straight-up dumb. If you see better comments in the wild, update the list.
+	
 	// Most of these are from actual comments I've seen :(
 	// Extra help from the Racial Slur Database http://www.rsdb.org/ 
 	v = v.replace(/\bMichelle Obama\b/ig, "MOOCHelle Obimbo");
@@ -55,7 +57,7 @@ function handleText(textNode)
 	v = v.replace(/\bObamacare\b/ig, "Owebamacare");
 	v = v.replace(/\bBarack\b/ig, "Hussein");
 	v = v.replace(/\bObama\b/ig, "Obummer");
-	v = v.replace(/\bMuslim\b/ig, "mooSLIME");
+	v = v.replace(/\bMuslim\b/ig, "Infidel");
 	v = v.replace(/\bIslam\b/ig, "ISLIME");
 	v = v.replace(/\bMuslims\b/ig, "Muzzies");
 	v = v.replace(/\bBlack\b/ig, "Thug");
@@ -92,12 +94,18 @@ function handleText(textNode)
 	v = v.replace(/\mosque\b/ig, "terrorist training ground");
 	v = v.replace(/\mosques\b/ig, "terrorist training grounds");
 	v = v.replace(/\Iraqi\b/ig, "Towelhead");
-	v = v.replace(/\Iraq\b/ig, "The Sandbox of Iraq");
-  v = v.replace(/\tax(es|ation)?/, "legalized theft");
-  v = v.replace(/\Don't Ask,? Don't Tell/i, "Keep it in the Closet");
+        v = v.replace(/\tax(es|ation)?/, "legalized theft");
+        v = v.replace(/\Don't Ask,? Don't Tell/i, "Keep it in the Closet");
+        v = v.replace(/\Immigrants\b/ig, "freeloaders & invaders");
+	v = v.replace(/\Osama bin Laden\b/ig, "Obama bin Laden");
+	v = v.replace(/\Planned Parenthood\b/ig, "Baby Murderers");
+	v = v.replace(/\California\b/ig, "liberal left wing hippy dippy state of California");
+	v = v.replace(/\Bernie Sanders\b/ig, "Socialist Bernie Sanders");
+	v = v.replace(/\black\b/ig, "black - but I don't see why we need to bring race into this -");
 	
 	// Punctuation
 	v = v.replace(/\."/ig, ". WAKE UP AMERICA\" ");
+	v = v.replace(/\..."/ig, "... Trump 2016!\" ");
 	v = v.replace(/\?/ig, "? This country is going to Hell!!!!!");
 	textNode.nodeValue = v;
 }
