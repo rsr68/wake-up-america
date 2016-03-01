@@ -103,6 +103,9 @@ function handleText(textNode)
 	v = v.replace(/\Bernie Sanders\b/ig, "Socialist Bernie Sanders");
 	v = v.replace(/\black\b/ig, "black - but I don't see why we need to bring race into this -");
 	v = v.replace(/\Americans\b/ig, "hardworking Americans");
+    v = v.replace(/\Trump\b/ig, "Drumpf");
+    v = v.replace(/\Hillary\b/ig, "Hilda Beast");
+    v = v.replace(/\Bernie\b/ig, "The Fossil");
 	
 	// Punctuation
 	v = v.replace(/\."/ig, ". WAKE UP AMERICA\" ");
